@@ -1,13 +1,14 @@
 import React from "react";
-import { Component } from "react";
+import { useState } from "react";
 import './NavBar.css'
 
-class NavBar extends Component{
-    render(){
+
+const NavBar=()=> {
+
         return <>
         <div>
             <ul className="nav">
-                <li href="#">hamburger</li>
+                <li href="#">ham</li>
                     <ul className="dropdown">
                         <li>Home</li>
                         <li>Questions</li>
@@ -22,7 +23,7 @@ class NavBar extends Component{
             </ul>
             </div>
         </>
-    }
+    
 }
 
 export default NavBar;
