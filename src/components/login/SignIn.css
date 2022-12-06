@@ -1,0 +1,12 @@
+.signin-form {
+    width: 250px;
+    /* padding-top: 50px; */
+    margin: 100px auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.signin-form input {
+    width: calc(100%);
+    margin:10px 0;
+}
