@@ -1,3 +1,33 @@
+/* hamburger nav*/
+
+.center {
+ 
+  width: 40px;
+}
+
+.center:before,
+.center:after,
+.center div {
+  background: rgb(30, 30, 30);
+  content: "";
+  display: block;
+  height: 4px;
+  border-radius: 3px;
+  margin: 5px 0;
+  transition: 0.5s;
+}
+.center:focus {
+  transform: translateY(12px) rotate(135deg);
+}
+.center:focus {
+  transform: translateY(-12px) rotate(-135deg);
+}
+.center:focus div {
+  transform: scale(0);
+}
+
+/* */
+
 .nav > li {
     padding: 10px;
     text-align: center;
@@ -10,7 +40,7 @@
   
   .nav {
     display: flex;
-    margin:5px 20px;
+    margin:5px 10px;
   }
   .nav-search {
     flex: 1;

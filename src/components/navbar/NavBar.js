@@ -1,25 +1,19 @@
 import React from "react";
-import { useState } from "react";
+import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
 import './NavBar.css'
-
-
 const NavBar=()=> {
 
         return <>
         <div>
             <ul className="nav">
-                <li href="#">ham</li>
-                    <ul className="dropdown">
-                        <li>Home</li>
-                        <li>Questions</li>
-                        <li>Tags</li>
-                        <li>Users</li>
-                    </ul>
-                <li>Stack<b>Overflow-lite</b></li>
-                <li>About</li>
+                <li><Link to='/sidenav'><div class="center">
+  <div></div>
+</div></Link></li>
+                <li><Link to='/home'>Stack<b>Overflow-lite</b></Link></li>
+                <li><Link to='/about'>About</Link></li>
                 <li className="nav-search"><input className="nav-input" type="text" placeholder="Search"/></li>
-                <li>Log in</li>
-                <li>Sign up</li>
+                <li><Link to='/login'>Log in </Link></li>
+                <li><Link to='/signup'>Sign up</Link></li>
             </ul>
             </div>
         </>
