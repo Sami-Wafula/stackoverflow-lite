@@ -1,0 +1,45 @@
+
+
+.landing h5, h4, h3{
+    text-align: center;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(212, 211, 211);
+    width: 100vw;
+    height: 100vh;
+}
+
+.section-a{
+    border: 1px solid;
+    height: 350px;
+    font-size: 28pt;
+}
+
+.section-a1{
+    font-size: 20pt;
+}
+
+.section-b {
+    font-size: 20pt;
+}
+
+.landing-stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.landing-stat{
+    height: 100px;
+    width: 150px;
+    background-color: rgb(78, 108, 108);
+    text-align: center;
+}
+
+.landing-stat h5 {
+    margin-top: 20%;
+}
