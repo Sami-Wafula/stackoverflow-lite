@@ -1,0 +1,3 @@
+[build]base = "stackoverflow-lite/"
+publish = "stackoverflow-lite/build/"
+command = "yarn build"
